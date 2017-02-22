@@ -77,6 +77,29 @@ let Gavdostxt = `Near the more well-known Crete, Gavdos is the most southern isl
 
 let Gavdos = document.getElementById("Gavdos");
 Gavdos.innerText = Gavdostxt;
+
+/** CONTACT PAGE FORM **/
+
+let submitButton = document.getElementById("submitButton");
+
+// adding an eventHandler to the button SUBMIT.
+submitButton.addEventListener("click", function(event){
+    let firstName = document.getElementById("firstName").value;
+    let lastName = document.getElementById("lastName").value;
+    let email = document.getElementById("email").value;
+    let comments = document.getElementById("comments").value;
+
+    console.log(`Form Contents:
+    First Name: ${firstName}, 
+    Last Name: ${lastName}, 
+    Email: ${email}, 
+    Comments: ${comments}` );
+    
+    // prevent the page to reload, so the results keep displayed on the console
+    event.preventDefault();
+});
+
+
 })();
 
 
