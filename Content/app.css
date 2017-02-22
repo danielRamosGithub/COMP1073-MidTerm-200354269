@@ -14,6 +14,11 @@ main {
     padding-top: 4.375em
 }
 
+main p {
+    padding: 5px;
+    text-align: justify;
+}
+
 article, section {
     font-size: 1.35em;
 }
