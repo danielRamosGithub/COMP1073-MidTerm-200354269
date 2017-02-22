@@ -2,7 +2,7 @@
     File name: app.js	
     Author's:Daniel Costa Ramos 
     StudentID: 200354269	
-    Web	site name:
+    Web	site name: http://comp1073-midterm-200354269.azurewebsites.net/
     File description: Javscript file to manage all the funcionality and injection of content over the page.
 */
 
